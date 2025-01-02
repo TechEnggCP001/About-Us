@@ -1,5 +1,6 @@
 body{
-    margin: 50px;
+    left-margin: 50px;
+    right-margin:50px;
     padding: 0%;
 }
 #main1-heading{
