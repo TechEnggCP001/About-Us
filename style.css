@@ -103,7 +103,7 @@ background-color: rgb(0, 0, 0);
 display: flex;
    }
    #box{
-    max-width: 800px;
+    max-width: 100%;
     margin: 1rem auto;
     padding: 1rem;
     background: white;
