@@ -160,7 +160,7 @@ flex-wrap: wrap;
   button:hover {
     border: 2px solid rgb(0, 0, 0);
     padding: 0.5rem;
-    background: white;
+    background:black;
     font-size: 1rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
