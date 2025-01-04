@@ -172,11 +172,16 @@ flex-wrap: wrap;
     text-align: center;
 }
 #footer1{
-    position: absolute;
-    margin-bottom: 0%;
     width: 100%;
+    color: white;
+    padding-bottom: 0%;
     background-color: black;
-}
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-style: normal;
+    text-align: center;
+  }
   
   
    
