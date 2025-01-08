@@ -195,6 +195,9 @@ justify-content: center;
     #footer1{
       font-size: .3rem;
     }
-
+#profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
     
   }
