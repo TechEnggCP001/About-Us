@@ -1,4 +1,7 @@
-
+body{
+    margin: 0px;
+    padding: 0%;
+}
 #main1-heading{
 background-color: rgb(0, 0, 0);
     font-size: clamp(2rem, 10vw, 6rem);
@@ -21,7 +24,7 @@ background-color: rgb(0, 0, 0);
  
     display: inline;
     margin-left:30px;
-    margin-right: 30px;
+    
     color: white;
  
 }
@@ -48,7 +51,7 @@ background-color: rgb(0, 0, 0);
     width: 100%;
     font-size: 5rem;
     text-align: center;
-    position: absolute;
+    position:relative;
     top: 28%;
     color:rgb(0, 0, 0); 
     -webkit-text-stroke: 3px rgb(0, 0, 0); 
@@ -98,9 +101,12 @@ background-color: rgb(0, 0, 0);
   }
    #section2{
 display: flex;
+justify-content: center;
    }
    #box{
-    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
     margin: 1rem auto;
     padding: 1rem;
     background: white;
@@ -109,15 +115,14 @@ display: flex;
    }
    #skills{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:space-evenly;
     margin: clamp(4px,6px,10px);
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    }
    #heading{
-flex-wrap: wrap;
     border-color:rgb(0, 0, 0);
     border: solid;
     font-weight: 900;
@@ -160,18 +165,13 @@ flex-wrap: wrap;
   button:hover {
     border: 2px solid rgb(0, 0, 0);
     padding: 0.5rem;
-    background:black;
+    background-color:white;
     font-size: 1rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
   }
-.information2{
-    color: white;
-    font-weight: 900;
-    font-size: 0.8rem;
-    text-align: center;
-}
-#footer1{
+  #footer1{
     width: 100%;
     color: white;
     padding-bottom: 0%;
@@ -182,6 +182,19 @@ flex-wrap: wrap;
     font-style: normal;
     text-align: center;
   }
-  
-  
-   
+  @media only screen and (max-width: 414px){
+    #name{
+      width: 100%;
+      font-size: 4rem;
+      text-align: center;
+      position:relative;
+      top: 28%;
+      color:rgb(0, 0, 0); 
+      -webkit-text-stroke: 3px rgb(0, 0, 0); 
+    }
+    #footer1{
+      font-size: .6rem;
+    }
+
+    
+  }
