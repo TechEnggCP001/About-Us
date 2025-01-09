@@ -226,6 +226,11 @@ margin: 10px;
   width: 250px;
   border-radius: 50%;
 }
+ #nav div{
+    margin:20px;
+    margin-left:0px;
+ 
+}
 
 .main-heading {
   font-size: clamp(2rem, 10vw, 2.5rem);
