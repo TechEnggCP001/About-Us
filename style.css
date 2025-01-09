@@ -213,8 +213,9 @@ justify-content: center;
       font-size: .6rem;
     }
 #nav div{
-  margin-left: 0px;
-margin: 10px;
+  margin-left: 5px;
+     margin-left: 5pxpx;
+margin:5px;
 
 }
 #hello-hii{
