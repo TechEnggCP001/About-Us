@@ -156,7 +156,7 @@ justify-content: center;
   }
   
   #heading-sec {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     padding-bottom: 2rem;
     font-weight: bold;
@@ -224,7 +224,7 @@ margin:5px;
 }
 #profile {
   height: 225px;
-  width: 250px;
+  width: 235px;
   border-radius: 50%;
 }
  #nav div{
