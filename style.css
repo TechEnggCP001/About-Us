@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    padding: 0%;
+}
+#main1-heading{
+background-color: rgb(0, 0, 0);
+    font-size: clamp(2rem, 10vw, 6rem);
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+#nav{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    height: 50px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    top:0%;
+    width: 100%;
+
+}
+#nav div{
+ 
+    display: inline;
+    margin-left:30px;
+    
+    color: white;
+ 
+}
+#nav div a{
+    color: white;
+    font-size: clamp(0.5rem, 2vw, 1.5rem);
+    text-decoration: none;
+}
+
+#nav div a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  #hello-hii{
+    background-color: rgb(0, 0, 0);
+    opacity: 9.8;
+    background-image: url(myimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height:  clamp(200px, 150vw, 600px);
+  }
+  #skill{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+#name{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    position:relative;
+    top: 28%;
+    color:rgb(0, 0, 0); 
+    -webkit-text-stroke: 3px rgb(0, 0, 0); 
+}
+#image {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+}
+#profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  .main-heading{
+        font-size: clamp(2rem, 10vw, 4rem);
+        text-align: center;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+    }
+  #section1 {
+    padding-top: 120px;
+    border-radius: 0%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .heading {
+    color: rgb(0, 0, 0);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 900;
+    text-align: left;
+    margin: 0%;
+  }
+  .heading2{
+    color:red;
+    font-size: 1rem;
+  }
+  #Information {
+    padding: 0 10vw;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+   #section2{
+display: flex;
+justify-content: center;
+   }
+   #box{
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   #skills{
+    flex-direction: row;
+    justify-items:center;
+    margin: clamp(4px,6px,10px);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    color: black;
+  
+
+   }
+   #heading{
+    /* border-color:rgb(0, 0, 0);
+    border: solid; */
+    font-weight: 900;
+   font-size: 2rem;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    margin: clamp(4px,6px,10px); 
+    border-radius: 10%;
+   }
+   .heading1{
+    /* border-color:rgb(0, 0, 0);
+    border: solid; */
+    font-size:bold;
+    font-weight: 900;
+   font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    margin: clamp(4px,6px,10px); 
+    border-radius: 10%;
+   }
+   #Contact_Us {
+    padding-top: 3rem;
+    margin-bottom: -0.5rem;
+    background-image: linear-gradient(to top right, rgb(0, 0, 0), rgb(33, 33, 33));
+  }
+  
+  #heading-sec {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  input,
+  textarea {
+    width: 50%;
+    max-width: 50%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: #fffdfd;
+    background: transparent;
+    line-height: 1.6;
+    font-size: 1.05rem;
+  }
+  
+  button:hover {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+    background-color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  #footer1{
+    width: 100%;
+    color: white;
+    padding-bottom:0%px;
+    padding-top: 30px;
+    background-color: black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+  }
+  @media only screen and (max-width: 414px){
+    #name{
+      width: 100%;
+      font-size: 3rem;
+      text-align: center;
+      position:relative;
+      top: 28%;
+      color:rgb(0, 0, 0); 
+      -webkit-text-stroke: 3px rgb(0, 0, 0); 
+    }
+    #footer1{
+      font-size: .6rem;
+    }
+#nav div{
+  margin-left: 0px;
+margin: 10px;
+
+}
+#hello-hii{
+  background-image: url(myimage1.jpg);
+  height: clamp(100px, 150vw, 300px);
+}
+#profile {
+  height: 225px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.main-heading {
+  font-size: clamp(2rem, 10vw, 2.5rem);
+}
+#Information{
+  font-size: 15px;
+}
+#heading{
+  font-size: 1rem;
+}
+#headin2{
+  font-family: .8rem;
+}
+
+    
+  }
+  /* @media only screen and (max-width: 414px) */
